@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5d5c5c;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1em 4em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo h1 {
+    color: aqua;
+    font-size: 30px;
+}
+
+nav .dropdown p {
+    display: inline;
+    margin: 0 20px;
+}
+
+.btn1 {
+    padding: 10px;
+    border: 1px solid aqua;
+    color: aqua;
+    background: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.btn2 {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: aqua;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+main {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    width: 40%;
+    padding: 2em;
+    line-height: 25px;
+    box-shadow: 0 1px 1px 1px #ccc;
+    border-radius: 5px;
+}
+
+.card span {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.card h3 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.card hr {
+    border: 2px solid aqua;
+    margin: 10px 0;
+}
+
+.btn3 {
+    padding: 20px;
+    border: none;
+    color: #fff;
+    background: aqua;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.main {
+    margin: 3em 0;
+}
+
+.main h5 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card2 {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    line-height: 25px;
+    box-shadow: 0 1px 1px 1px #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card2 h4 {
+    font-size: 25px;
+}
+
+.card2 h2 {
+    font-size: 40px;
+}
+
+.card2 a {
+    color: aqua;
+}
+
+.card3 {
+    width: 80%;
+    border-radius: 5px;
+    margin: 2em auto;
+    background: rgba(127, 255, 212, 0.481);
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main2 {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.main2 h2 {
+    text-align: center;
+    color: aqua;
+    margin: 2em 0;
+}
+
+.main2 p {
+    margin: 10px auto;
+    width: 70%;
+}
+
+.main2 i {
+    border: 1px solid red;
+    float: right;
+}
+
+.main3 {
+    width: 80%;
+    margin: 5em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main3 p {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 3em 0;
+}
+
+.main3 a {
+    display: block;
+    margin: 10px 0;
+}
+
+.main3 span {
+    color: aqua;
+}
+
+@media (max-width: 850px) {
+    nav .dropdown {
+        display: none;
+    }
+    nav .logo h1 {
+        font-size: 20px;
+    }
+    .btn1 {
+        padding: 5px;
+    }
+
+    .btn2 {
+        padding: 5px;
+    }
+
+
+    .card1 {
+        display: block;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        width: 100%;
+        padding: 2em;
+        margin: 2em 0;
+        line-height: 25px;
+        box-shadow: 0 1px 1px 1px #ccc;
+        border-radius: 5px;
+    }
+
+    .card2 h4,
+    p {
+        width: 70%;
+    }
+
+    .main2 h2 {
+        text-align: left;
+    }
+
+    .main2 p {
+        text-align: left;
+        width: 100%;
+    }
+
+    .main3 {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        font-size: 14px;
+    }
+
+    body {
+        padding: 1em;
+    }
+
+    .card {
+        padding: 1em;
+    }
+
+    .card span {
+        font-size: 20px;
+    }
+
+    .card h4 {
+        font-size: 20px;
+    }
+
+    .card h3 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .btn3 {
+        padding: 15px;
+    }
+
+    .main h5 {
+        font-size: 25px;
+    }
+
+    .card2 {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .card2 h4 {
+        font-size: 20px;
+    }
+
+    .card2 h2 {
+        font-size: 20px;
+    }
+
+    .card2 p {
+        width: 90%;
+    }
+
+    .card3 {
+        width: 90%;
+    }
+
+    .card3 h3 {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
